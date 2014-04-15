@@ -62,9 +62,11 @@ using namespace cv;
 using namespace std;
 
 // some constants to manage nb of people to learn+ id of people
-#define MAX_PEOPLE 		2
+#define MAX_PEOPLE 		4
 #define P_GARY			0
-#define P_JOEP			1
+#define P_MICHAEL       1
+#define P_RAJA			2
+#define P_JOEP			3
 //#define P_WILL			2
 //#define P_MONA			3
 
@@ -658,10 +660,12 @@ int main(int argc, const char **argv)
 	// with my daughters
 	// and they prefer to swimm than to see their father do a config file
 	// life is hard.
-	people[P_GARY] 		= "GARY";
+	people[P_GARY] 		= "Gary";
 	people[P_JOEP] 		= "Joep";
-	//people[P_WILL] 		= "Will";
-	//people[P_MONA]		= "Mona Lisa";
+	people[P_MICHAEL] 	= "Michael";
+	people[P_RAJA] 		= "Raja";
+
+
 
 	// init...
 	// reset counter
