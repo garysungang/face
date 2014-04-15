@@ -1,4 +1,4 @@
-//Test for PI 
+//Test for PI
 /////////////////////////////////////////////////////////////
 // Many source code lines are copied from RaspiVid.c
 // Copyright (c) 2012, Broadcom Europe Ltd
@@ -70,7 +70,7 @@ using namespace std;
 
 // for debug and trace
 #define TRACE 1
-#define DEBUG_MODE 0
+#define DEBUG_MODE 1
 #define DEBUG if (DEBUG_MODE==1)
 
 CascadeClassifier face_cascade;
@@ -665,7 +665,7 @@ int main(int argc, const char **argv)
 
 	// init...
 	// reset counter
-	for (int i=0;i>MAX_PEOPLE;i++)
+	for (int i=0;i<MAX_PEOPLE;i++)
 	{
 		nPictureById[i]=0;
 	}
