@@ -233,7 +233,7 @@ static void default_status(RASPIVID_STATE *state)
    memset(state, 0, sizeof(RASPIVID_STATE));
 
    // Now set anything non-zero
-   state->timeout 			= 65000;     // capture time : here 65 s
+   state->timeout 			= 6500000;     // capture time : here 65 s
    state->width 			= 320;      // use a multiple of 320 (640, 1280)
    state->height 			= 240;		// use a multiple of 240 (480, 960)
    state->bitrate 			= 17000000; // This is a decent default bitrate for 1080p
