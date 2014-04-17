@@ -62,14 +62,11 @@ using namespace cv;
 using namespace std;
 
 // some constants to manage nb of people to learn+ id of people
-#define MAX_PEOPLE 		3
+#define MAX_PEOPLE 		4
 #define P_GARY			0
 #define P_RAJA			1
 #define P_JOEP			2
-//#define P_MICHAEL       3
-
-//#define P_WILL			2
-//#define P_MONA			3
+#define P_MICHAEL       3
 
 // for debug and trace
 #define TRACE 1
@@ -664,7 +661,7 @@ int main(int argc, const char **argv)
 	people[P_GARY] 		= "Gary";
 	people[P_RAJA] 		= "Raja";
 	people[P_JOEP] 		= "Joep";
-//	people[P_MICHAEL] 	= "Michael";
+	people[P_MICHAEL] 	= "Michael";
 
 
 
